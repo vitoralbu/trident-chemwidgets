@@ -1,2 +1,5 @@
-export { default as JSME, JSMEProps } from './JSME'
-export { default as JSMEWithGallery } from './JSMEWithGallery'
+export { default as JSME, JSMEProps } from './JSME';
+export {
+  default as JSMEWithGallery,
+  JSMEWithGalleryProps,
+} from './JSMEWithGallery';

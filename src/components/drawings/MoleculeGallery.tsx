@@ -34,7 +34,7 @@ const MoleculeGrid = (props: MoleculeGridProps) => {
     ) : (<Grid sx={{ height: props.height }} />);
 };
 
-interface MoleculeGalleryProps {
+export interface MoleculeGalleryProps {
     selected: (Point0D[] | Point1D[] | Point2D[]),
 }
 

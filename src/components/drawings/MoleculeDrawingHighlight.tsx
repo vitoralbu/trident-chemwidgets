@@ -23,7 +23,7 @@ const MoleculeContainer = styled('div')({
     }
 });
 
-interface MoleculeDrawingHighlightProps {
+export interface MoleculeDrawingHighlightProps {
     smiles: string,
     allAtoms: boolean,
     atoms?: Array<number>,

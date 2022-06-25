@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import initRDKit from '../../utils/rdkit';
 
-interface MoleculeDrawingProps {
+export interface MoleculeDrawingProps {
     smiles: string;
     width: number;
     height: number;

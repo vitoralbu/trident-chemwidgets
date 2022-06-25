@@ -1,3 +1,12 @@
-export { default as MoleculeDrawing } from './MoleculeDrawing';
-export { default as MoleculeGallery } from './MoleculeGallery';
-export { default as MoleculeDrawingHighlight } from './MoleculeDrawingHighlight';
+export {
+  default as MoleculeDrawing,
+  MoleculeDrawingProps,
+} from './MoleculeDrawing';
+export {
+  default as MoleculeGallery,
+  MoleculeGalleryProps,
+} from './MoleculeGallery';
+export {
+  default as MoleculeDrawingHighlight,
+  MoleculeDrawingHighlightProps,
+} from './MoleculeDrawingHighlight';

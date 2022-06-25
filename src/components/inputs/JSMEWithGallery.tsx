@@ -7,12 +7,12 @@ import { Button, Grid, ThemeProvider } from '@mui/material';
 import MoleculeGallery from '../drawings/MoleculeGallery';
 import { Point0D } from '../../types/dataTypes';
 
-interface JSMEProps {
+export interface JSMEWithGalleryProps {
     baseSmiles: string,
     onChange?: (smilesList: string[]) => void 
 }
 
-const JSMEWithGallery = (props: JSMEProps): JSX.Element =>  {
+const JSMEWithGallery = (props: JSMEWithGalleryProps): JSX.Element =>  {
     const [currentSmiles, setCurrentSmiles] = useState<string>('')
     const [smiles, setSmiles] = useState<string[]>([])
     const [indexedSmiles, setIndexedSmiles] = useState<Point0D[]>([])
