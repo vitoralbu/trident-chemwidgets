@@ -22,7 +22,7 @@ interface altOptionTypes {
     bondbgsize?: string;     // relative size of the bond background rectangle, default is "1.0"
 }
 
-interface JSMEProps {
+export interface JSMEProps {
     width: string;
     height: string;
     smiles?: string;
@@ -34,7 +34,7 @@ interface JSMEProps {
     onChange?: (smiles: string) => void;
 }
 
-const JSME = (props: JSMEProps): JSX.Element => {
+const JSME: React.FC<JSMEProps> = (props): JSX.Element => {
     const [jsmeIdState, _setJsmeIdState] = useState("jsme" + getRandomInt(1, 100000))
     const [jsmeLoadedState, setJsmeLoadedState] = useState(false)
     const [jsmeAppletState, setJsmeAppletState] = useState<any>()

@@ -3,3 +3,4 @@
 
 export * from './version';
 export * from './widgets/widget';
+export * from './components'
