@@ -8,7 +8,7 @@ import Logo from '../../utils/logo';
 import initRDKit from '../../utils/rdkit';
 import MoleculeGallery from '../drawings/MoleculeGallery';
 
-interface HistogramProps {
+export interface HistogramProps {
     data: DataObject1D,
     onChange?: (val: (number | undefined)[]) => void,
     xLabel?: string,

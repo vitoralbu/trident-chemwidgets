@@ -9,7 +9,7 @@ import scatterSpec from "../specs/scatter_specs";
 import tooltipOptions from "../tooltip/MoleculeSVGTooltip";
 import MoleculeGallery from '../drawings/MoleculeGallery';
 
-interface ScatterProps {
+export interface ScatterProps {
     data: DataObject2D,
     onChange?: (val: (number | undefined)[]) => void,
     // X-Axis params
